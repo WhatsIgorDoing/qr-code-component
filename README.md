@@ -1,13 +1,13 @@
-# QR Code Component | Frontend Mentor Challenge
+# QR Code Component
 
 ![Project Status](https://img.shields.io/badge/status-complete-brightgreen)
-[![Deploy](https://img.shields.io/badge/live--demo-brightgreen?style=for-the-badge)](YOUR_DEPLOY_LINK_HERE)
+[![Deploy](https://img.shields.io/badge/live--demo-brightgreen?style=for-the-badge)](https://qr-code-component-liart-three.vercel.app/)
 
 > This is a solution to the "QR Code Component" challenge on [Frontend Mentor](https://www.frontendmentor.io/). The goal was to build a component that is visually as close as possible to the proposed design, practicing fundamental HTML and CSS skills.
 
 <br>
 
-**🚀 [View Live Demo](YOUR_DEPLOY_LINK_HERE)**
+**🚀 [View Live Demo](https://qr-code-component-liart-three.vercel.app/)**
 
 <br>
 
@@ -67,7 +67,7 @@ You can view the final result online or, if you prefer, clone the repository to 
 
 The easiest way to see the project in action is by accessing the deploy link:
 
-👉 **[Access the live demo](YOUR_DEPLOY_LINK_HERE)**
+👉 **[Access the live demo](https://qr-code-component-liart-three.vercel.app/)**
 
 ---
 
