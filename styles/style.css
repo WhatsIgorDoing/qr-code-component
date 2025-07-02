@@ -59,8 +59,8 @@ body{
     width: 100%;
     max-width: 32.0rem;
     height: auto;
-    padding: var(--spacing-16,);
-    padding-bottom: var(--spacing-40,);
+    padding: var(--spacing-16);
+    padding-bottom: var(--spacing-40);
 
     /* Visual */
     background: var(--card-color);
