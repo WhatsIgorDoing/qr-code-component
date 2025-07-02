@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --primary-color: #D5E1EF;
+    --font-color-title: #1F314F;
+    --font-color-text: #68778D;
+    --card-color: #FFFFFF;
+    --qr-code-color: #2C7DFA;
+
+    --font-family: 'Outfit', sans-serif;
+
+    --font-weight-title: 700;
+    --font-size-title: 2.2rem;
+    --font-line-height-title: 120%;
+    --font-letter-spacing-title: 0rem;
+
+    --font-weight-text: 400;
+    --font-size-text: 1.5rem;
+    --font-line-height-text: 140%;
+    --font-letter-spacing-text: 0.013rem;
+
+    --spacing-40: 4.0rem;
+    --spacing-24: 2.4rem;
+    --spacing-16: 1.6rem;
+
+} 
+
+body{
+    /*Layout & Positioning*/
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 1.6rem;
+
+    /* Visual */
+    background-color: var(--primary-color);
+    font-family: var(--font-family); 
+
+
+}
+
+.card{
+    /*Layout & Positioning*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    /* Box Model */
+    width: 100%;
+    max-width: 32.0rem;
+    height: auto;
+    padding: var(--spacing-16,);
+    padding-bottom: var(--spacing-40,);
+
+    /* Visual */
+    background: var(--card-color);
+    border-radius: 20px;
+    box-shadow: 0rem 2.5rem 2.5rem 0rem rgba(0, 0, 0, 0.05);
+
+}
+
+
+.card img{
+    /* Box Model */
+    max-width: 28.8rem;
+    max-height: 28.8rem;
+    border-radius: 1rem;
+    
+
+    /* Visual */
+    background-color: var(--qr-code-color, #2C7DFA) ;
+}
+
+.card h1{
+
+    /* Box Model */
+    width: 100%;
+    max-width: 25.6rem;
+    height: auto;
+    margin-top: var(--spacing-24);
+
+    /*Tipography*/
+    color: var(--font-color-title);
+
+    font-weight: var(--font-weight-title);
+
+    font-size: var(--font-size-title);
+    font-style: normal;
+    line-height: var(--font-line-height-title);
+    letter-spacing: var(--font-letter-spacing-title);
+    text-align: center;
+
+    /*Advanced font settings*/
+    font-feature-settings: 'liga' off, 'clig' off;
+
+}
+
+.card p{
+
+    /* Box Model */
+    width: 100%;
+    max-width: 25.6rem;
+    height: auto;
+    margin-top: var(--spacing-16);
+
+    /*Tipography*/
+    color: var(--font-color-text);
+
+    font-weight: var(--font-weight-text);
+
+    font-size: var(--font-size-text);
+    font-style: normal;
+    line-height: var(--font-line-height-text);
+    letter-spacing: var(--font-letter-spacing-text);
+    text-align: center;
+
+    /*Advanced font settings*/
+    font-feature-settings: 'liga' off, 'clig' off;
+}
