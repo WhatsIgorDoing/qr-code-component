@@ -77,7 +77,7 @@ If you want to explore the source code, follow these steps:
 
 ```bash
 # 1. Clone this repository (change 'your-user' and 'repository-name')
-git clone [https://github.com/your-user/repository-name.git](https://github.com/igordsBueno/qr-code-component.git)
+git clone [https://github.com/your-user/repository-name.git](https://github.com/WhatsIgorDoing/qr-code-component.gitt)
 
 # 2. Navigate to the project folder
 cd repository-name
@@ -92,4 +92,4 @@ cd repository-name
 Project developed by **Igor Bueno**.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/engigorbueno/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/igordsBueno)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WhatsIgorDoing)
