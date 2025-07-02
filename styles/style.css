@@ -72,7 +72,9 @@ body{
 
 .card img{
     /* Box Model */
+    width: 100%;
     max-width: 28.8rem;
+    height: auto;
     max-height: 28.8rem;
     border-radius: 1rem;
     
