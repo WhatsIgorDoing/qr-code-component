@@ -1,7 +1,6 @@
 # QR Code Component
 
 ![Project Status](https://img.shields.io/badge/status-complete-brightgreen)
-[![Deploy](https://img.shields.io/badge/live--demo-brightgreen?style=for-the-badge)](https://qr-code-component-liart-three.vercel.app/)
 
 > This is a solution to the "QR Code Component" challenge on [Frontend Mentor](https://www.frontendmentor.io/). The goal was to build a component that is visually as close as possible to the proposed design, practicing fundamental HTML and CSS skills.
 
